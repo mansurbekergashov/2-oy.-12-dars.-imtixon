@@ -834,6 +834,7 @@ footer {
         margin-top: -22px;
 
     }
+
     .horizontal-line {
         display: none;
     }
@@ -852,79 +853,91 @@ footer {
         gap: 5px;
     }
 
-    .cta-title{
+    .cta-title {
         font-size: 28px;
         letter-spacing: -0.7px;
         line-height: 48px;
         margin-left: auto;
         margin-right: auto;
     }
-    .cta-link-div{
+
+    .cta-link-div {
         max-width: 197px;
         width: 100%;
         height: 56px;
     }
-    .cta-link{
+
+    .cta-link {
         font-size: 20px;
 
     }
 
 
 
-    .footer-container{
+    .footer-container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .footer-links{
+
+    .footer-links {
         max-width: 327px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .footer-links-wrapper{
+
+    .footer-links-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .footer-shortly-image{
+
+    .footer-shortly-image {
         width: 120px;
         padding-top: 54px;
         padding-bottom: 50px;
     }
-    .footer-links-titles{
+
+    .footer-links-titles {
         font-size: 16px;
         letter-spacing: -0.25px;
     }
-    .footer-link{
+
+    .footer-link {
         font-size: 15px;
         letter-spacing: -0.23px;
     }
-    .first-footer-links{
+
+    .first-footer-links {
         padding-bottom: 48px;
         display: flex;
         flex-direction: column;
         align-items: center;
 
     }
-    .second-footer-links{
+
+    .second-footer-links {
         padding-bottom: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .third-footer-links{
+
+    .third-footer-links {
         padding-bottom: 48px;
         display: flex;
         flex-direction: column;
         align-items: center;
 
     }
-    .footer-socials{
+
+    .footer-socials {
         display: flex;
         gap: 24px;
     }
-    .footer-social-img{
+
+    .footer-social-img {
         width: 24px;
         height: 24px;
     }
@@ -932,11 +945,12 @@ footer {
 }
 
 
-@media (max-width: 327px){
-    .hero-img{
+@media (max-width: 327px) {
+    .hero-img {
         display: none;
     }
-    .container{
+
+    .container {
         max-width: 290px;
         width: 100%;
     }
